@@ -27,7 +27,7 @@
 import axios from '../util/myaxios'
 const options = {
     mounted: function(){
-        this.sendReq()
+        this.sendReq()//钩子函数，启动调用这个方法，并执行内部方法
     },
     data: function() {
         return {
